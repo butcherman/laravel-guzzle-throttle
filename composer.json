@@ -1,9 +1,8 @@
 {
-  "name": "hamburgscleanest/laravel-guzzle-throttle",
+  "name": "butcherman/laravel-guzzle-throttle",
   "type": "library",
   "description": "A Laravel wrapper for https://github.com/hamburgscleanest/guzzle-advanced-throttle.",
   "keywords": [
-    "hamburgscleanest",
     "api",
     "ratelimit",
     "rate limit",
@@ -40,12 +39,12 @@
   },
   "autoload": {
     "psr-4": {
-      "hamburgscleanest\\LaravelGuzzleThrottle\\": "src"
+      "butcherman\\LaravelGuzzleThrottle\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "hamburgscleanest\\LaravelGuzzleThrottle\\Tests\\": "tests"
+      "butcherman\\LaravelGuzzleThrottle\\Tests\\": "tests"
     }
   },
   "scripts": {
@@ -56,10 +55,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "hamburgscleanest\\LaravelGuzzleThrottle\\LaravelGuzzleThrottleServiceProvider"
+        "butcherman\\LaravelGuzzleThrottle\\LaravelGuzzleThrottleServiceProvider"
       ],
       "aliases": {
-        "LaravelGuzzleThrottle": "hamburgscleanest\\LaravelGuzzleThrottle\\Facades\\LaravelGuzzleThrottle"
+        "LaravelGuzzleThrottle": "butcherman\\LaravelGuzzleThrottle\\Facades\\LaravelGuzzleThrottle"
       }
     }
   },
